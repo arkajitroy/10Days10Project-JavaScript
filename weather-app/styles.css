@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: rgb(47, 47, 109);
+}
+.container {
+  margin-top: 5rem;
+  height: auto;
+  width: auto;
+}
+
+.main-box {
+  height: 37rem;
+  width: 25rem;
+  background-color: white;
+  box-shadow: 1px 2px 20px 1px rgb(0, 0, 0);
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.8rem;
+}
+
+.weather-icon img {
+  height: 9rem;
+  width: auto;
+  /* border: 2px solid black; */
+}
+
+/* search-box */
+.search-container {
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  width: auto;
+}
+input[type="search"] {
+  text-align: center;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 20rem;
+  background-color: rgb(216, 216, 238);
+  color: black;
+  border: 0px;
+  border-radius: 0.4rem;
+  -webkit-transition: 0.5s;
+  transition: 0.3s;
+  outline: none;
+  border: rgb(149, 149, 196);
+}
+
+input[type="search"]:focus {
+  border: 2px solid rgb(72, 72, 188);
+}
+
+.weather-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+
+/* MAIN_COUNTER */
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 11.5rem;
+}
+
+.temperature {
+  color: rgb(72, 72, 188);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.weather_type {
+  font-size: 1.2rem;
+}
+
+.location_elm {
+  color: rgb(109, 109, 170);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* FOOTER COUNTER */
+.min-max-card {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.temp-count {
+  font-size: 1.3rem;
+}
+
+.temp-status {
+  font-size: 0.8rem;
+}
+
+.min-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 7rem;
+  background-color: rgb(178, 178, 230);
+  font-weight: 600;
+  color: white;
+  /* border: 2px solid black; */
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.571);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.min-card:hover {
+  transform: scale(1.2);
+}
+
+.max-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 7rem;
+  background-color: rgb(72, 72, 188);
+  font-weight: 600;
+  color: white;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.571);
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.max-card:hover {
+  transform: scale(1.2);
+}

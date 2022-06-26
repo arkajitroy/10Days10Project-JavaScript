@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather-JS</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-box">
+        <form action="" class="search-container">
+          <input
+            class="search-bar"
+            id="search-bar"
+            type="search"
+            placeholder="Enter Location"
+          />
+        </form>
+        <!-- SVG -->
+        <div class="weather-icon">
+          <img src="./assets/unknown.png" alt="" />
+        </div>
+        <!-- Counter-Section -->
+        <div class="counter">
+          <div class="temperature">00<span>°c</span></div>
+          <div class="weather_type">Weather Type</div>
+          <div class="location_elm">Location</div>
+        </div>
+        <div class="min-max-card">
+          <div class="min-card">
+            <div class="temp-count min-count">00<span>°c</span></div>
+            <div class="temp-status">MIN</div>
+          </div>
+          <div class="max-card">
+            <div class="temp-count max-count">00<span>°c</span></div>
+            <div class="temp-status">MAX</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
