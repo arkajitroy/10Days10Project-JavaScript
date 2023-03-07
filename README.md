@@ -1,4 +1,4 @@
-# 30D30P-JS
+# 30Days-30Project-JavaScript
 
 This repository is specially made for simple mini projects which is made up using only HTML-CSS-JavaScript. There will be 30 mini projects in this repository. You can find all the source code in the repository
 
